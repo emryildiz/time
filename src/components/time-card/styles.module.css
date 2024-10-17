@@ -1,0 +1,81 @@
+.timeCard{
+    border-radius: 16px;
+    position: relative;
+    width: calc(33% - 20px);
+    overflow: hidden;
+}
+
+.cardImage{
+    background-color: var(--lightest-red);
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    border-radius: 20px;
+}
+
+.orange{
+    background-color: var(--lightest-red);
+}
+
+.blue{
+    background-color: var(--soft-blue);
+}
+
+.red{
+    background-color: var(--light-red);
+}
+
+.green{
+    background-color: var(--lime-green);
+}
+
+.purple{
+    background-color: var(--violet);
+}
+
+.yellow{
+    background-color: var(--soft-orange);
+}
+
+.cardImage img{
+    object-position: right;
+    margin-top: -10px;
+    margin-right: 10px;
+    width: 64px;
+    height: 64px;
+}
+
+.cardContent{
+    background-color: var(--dark-blue);
+    border-radius: 16px;
+    position: absolute;
+    left:0;
+    right: 0;
+    top: 34px;
+    bottom:0;
+    padding:20px
+}
+
+.upperBar{
+    display: flex;
+    justify-content: space-between;
+}
+
+.cardContent h2{
+    margin-top: 40px;
+    font-size: 42px;
+    font-weight: 300;
+}
+
+.cardContent p{
+    color: var(--pale-blue);
+    margin-top:20px;
+    font-size: 12px;
+}
+
+@media (max-width : 950px){
+    .timeCard{
+        width: 100%;
+        min-height: 240px;
+    }
+}

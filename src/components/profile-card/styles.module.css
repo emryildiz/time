@@ -1,0 +1,56 @@
+.profileCard{
+    background-color: var(--dark-blue);
+    display: flex;
+    flex-direction: column;
+    border-radius: 16px;
+}
+
+.profileSection{
+    background-color: var(--blue);
+    display: flex;
+    flex-direction: column;
+    padding:32px 100px 100px 32px;
+    border-radius: 16px;
+}
+.profileImage{
+    border:2px solid white;
+    width: 64px;
+    height: 64px;
+    border-radius: 999px;
+}
+
+.profileImage img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.profileSection p{
+    font-weight: 300;
+    font-size: 14px;
+    margin-top:40px;
+}
+
+.profileSection h2{
+    margin-top: 20px;
+    font-size: 42px;
+    font-weight: 300;
+    width: 5ch;
+}
+
+.navMenu{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    gap: 20px;
+    color:var(--pale-blue);
+}
+
+.navMenu button{
+    border:none;
+    background-color: inherit;
+    cursor: pointer;
+}
+
+.active{
+    color:white;
+}
